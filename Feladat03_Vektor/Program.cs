@@ -14,7 +14,10 @@ namespace Feladat03_Vektor
             {
                 if (i== 0) { tomb[0] = 0; }
                 if (i== 1) { tomb[1] = 1; }
-                tomb[i] = tomb[i - 2] + tomb[i - 1];
+                if (i > 1)
+                {
+                    tomb[i] = tomb[i - 2] + tomb[i - 1];
+                }
             }
         }
 

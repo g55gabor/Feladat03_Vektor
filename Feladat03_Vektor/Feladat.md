@@ -6,3 +6,5 @@ A **Fibonacci sorozat**:
 - első eleme:    0
 - második eleme: 1
 - minden további elem az előző két elem összege.
+
+
