@@ -22,11 +22,21 @@ namespace Feladat03_Vektor
         }
 
 
+        public static void fibonacchiTombKiiro(ref int[] tomb)
+        {
+            for (int i = 0; i < tomb.Length; i++)
+            {
+                Console.WriteLine("{0}. elem: {1}", i, tomb[i]);
+            }
+        }
 
         static void Main(string[] args)
         {
             int[] fibTomb = new int[50];
             fibonacchiTombFeltotles(ref fibTomb);
+            fibonacchiTombKiiro(ref fibTomb);
+
+            Console.ReadLine();
         }
     }
 }

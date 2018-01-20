@@ -24,3 +24,7 @@
 Az algoritmus a cím szerint átadott tombot feltölti a fibbonacchi sorozat elemeivel.
 Mivel a tomb deklarálásakor meg kell adni a tömb hosszát ezért tudjuk feltolteni a teljes hosszig.
 
+## fibonacchi tömb elemeinek kiíratása
+
+A tomb minden elemét bejárjuk és új sorba formázottan kiírjuk.
+A formázás során a 0. paraméter {0} felveszi az i, az 1. paramtéer {1} felveszi a tomb i-edik elemének tomb[i] értékét.
