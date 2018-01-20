@@ -8,7 +8,7 @@ namespace Feladat03_Vektor
 {
     class Program
     {
-        public static void  fibonacchiTombFeltotles(ref int[] tomb)
+        public static void  fibonacchiTombFeltotles(ref ulong[] tomb)
         {
             for (int i = 0; i < tomb.Length; i++)
             {
@@ -22,7 +22,7 @@ namespace Feladat03_Vektor
         }
 
 
-        public static void fibonacchiTombKiiro(ref int[] tomb)
+        public static void fibonacchiTombKiiro(ref ulong[] tomb)
         {
             for (int i = 0; i < tomb.Length; i++)
             {
@@ -32,7 +32,7 @@ namespace Feladat03_Vektor
 
         static void Main(string[] args)
         {
-            int[] fibTomb = new int[50];
+            ulong[] fibTomb = new ulong[50];
             fibonacchiTombFeltotles(ref fibTomb);
             fibonacchiTombKiiro(ref fibTomb);
 
